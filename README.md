@@ -49,7 +49,7 @@ pip install -r requirements.txt
 Provide instructions on how to use the code, including any specific command-line arguments or configurations. For example:
 
 1. Open a terminal and navigate to the project directory.
-2. Run the command: `python blink_detection.py --dataset dataset_folder`
+2. Run the command: `python3 main.py --dataset dataset_folder`
    - Replace `dataset_folder` with the path to the folder containing your event camera dataset.
    - Add any additional options or arguments as needed.
 3. The program will preprocess the event camera data, apply the blink detection algorithm, and display the results.
