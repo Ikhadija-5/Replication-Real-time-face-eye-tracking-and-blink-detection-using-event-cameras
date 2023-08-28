@@ -28,7 +28,7 @@ To generate 2d frames, follow the steps below;
 
 - Follow the instructions in the repo [E2VID](https://github.com/uzh-rpg/rpg_e2vid)
 
-  ## Generating Bounding Boxes on Frames
+## Generating Bounding Boxes on Frames
 
 dencies by running the following command:
 pip install -r requirements.txt
