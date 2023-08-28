@@ -18,47 +18,24 @@ Event datasets are usually difficult to come by. We use a synthetically generate
 
 1. Download [Helen](http://www.ifp.illinois.edu/~vuongle2/helen/)
 2. Generate croppings of single images by running  `python3 Image_Cropping.py`
-3. 
+3. Follow the instructions at [V2E](https://github.com/SensorsINI/v2e) or [VID2E](https://github.com/uzh-rpg/rpg_vid2e) to generate event simulations on your cropped images
 
 
-## Getting Started
+## Event Representation for CNN Architecture
+After generating events from single images, we then need to convert our events into 2D frames as accepted by CNNS, we do this by accumulating polarity pixelwise using the method  introduced in the paper "High Speed and High Dynamic Range Video with an Event Camera"
 
-To get started with this project, follow the steps below:
+To generate 2d frames, follow the steps below;
 
-1. Clone the repository:
-git clone https://github.com/your-username/eye-blink-detection.git
+- Follow the instructions in the repo [E2VID](https://github.com/uzh-rpg/rpg_e2vid)
 
+## generating BOUNDING BOXES ON FRAMES
 
-2. Install the necessary dependencies (see the next section for details).
-
-3. Download or prepare the event camera dataset:
-- If you have an event camera dataset, make sure it is in the appropriate format compatible with the code.
-- If you don't have an event camera dataset, you can explore publicly available datasets or generate synthetic data for testing and development purposes.
-
-4. Follow the instructions provided in the project code to preprocess and run the eye blink detection algorithm on your event camera data.
-
-## Dependencies
-
-The following dependencies are required to run the code:
-
-- Python (version X.X.X)
-- OpenCV (version X.X.X)
-- NumPy (version X.X.X)
-- (Add any additional dependencies or libraries used in the project)
-
-You can install the required dependencies by running the following command:
+dencies by running the following command:
 pip install -r requirements.txt
 
+## Training GR-YOLO Model
 
-## Usage
-
-Provide instructions on how to use the code, including any specific command-line arguments or configurations. For example:
-
-1. Open a terminal and navigate to the project directory.
-2. Run the command: `python3 main.py --dataset dataset_folder`
-   - Replace `dataset_folder` with the path to the folder containing your event camera dataset.
-   - Add any additional options or arguments as needed.
-3. The program will preprocess the event camera data, apply the blink detection algorithm, and display the results.
+-Download pretrained weights [Link](URL)
 
 ## Results
 
@@ -71,4 +48,6 @@ Contributions to this project are welcome. If you encounter any issues, have ide
 ## License
 
 [MIT License](LICENSE)
+
+##REFERENCES
 
