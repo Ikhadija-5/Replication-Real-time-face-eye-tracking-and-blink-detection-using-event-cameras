@@ -1,6 +1,6 @@
 # Eye Blink Detection with Event Camera Data
 
-This repository contains the code for re-implementing a paper on eye blink detection using event camera data. The goal of this project is to develop a system that can accurately detect eye blinks in real-time using event camera technology, which provides asynchronous and high-speed visual information.
+This repository contains the code for re-implementing the paper "Real Time Face and Eye Tracking and Blink Detection Using Event Cameras" paper on eye blink detection using event camera data. The goal of this project is to develop a system that can accurately detect eye blinks in real-time using event camera technology, which provides asynchronous and high-speed visual information.
 
 ## Table of Contents
 - [Introduction](#introduction)
